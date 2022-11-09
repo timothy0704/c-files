@@ -1,0 +1,14 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+
+  const double pi= 3.14;
+   double area, radius= 5.4;
+    area = pi*radius;
+    
+    
+    Console.WriteLine ("Area of Circle");
+    Console.WriteLine (area);
+  }
+}
