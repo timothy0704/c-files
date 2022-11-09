@@ -1,0 +1,11 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+int a = 3;
+    
+  Console.WriteLine(++a);
+      Console.WriteLine(a++);
+      Console.WriteLine(a++ +6-4);
+  }
+}
