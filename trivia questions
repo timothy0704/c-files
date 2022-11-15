@@ -1,0 +1,88 @@
+    using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+
+        Console.WriteLine("who is the first president of USA");
+
+        Console.WriteLine("1. Timothy Kim");
+        Console.WriteLine("2. Justin Trudeau");
+        Console.WriteLine("3. George Washington");
+        Console.WriteLine("4. Sir John Alexander Macdonald");
+
+        Console.WriteLine("Enter the correct choice");
+
+        int opt = Convert.ToInt32(Console.ReadLine());
+
+        if (opt == 3)
+        {
+            Console.WriteLine("Correct");
+        }
+      else
+      {
+                Console.WriteLine("Incorrect");
+        }
+
+Console.WriteLine("where is canada");
+
+        Console.WriteLine("1. North America");
+        Console.WriteLine("2. Asia");
+        Console.WriteLine("3. Europe");
+        Console.WriteLine("4. Africa");
+
+        Console.WriteLine("Enter the correct choice");
+
+        int apt = Convert.ToInt32(Console.ReadLine());
+
+        if (apt == 1)
+        {
+            Console.WriteLine("Correct");
+        }
+      else
+      {
+                Console.WriteLine("Incorrect");
+        }
+
+      Console.WriteLine("What year did the Berlin wall fall?");
+
+        Console.WriteLine("1. 2022");
+        Console.WriteLine("2. 1989");
+        Console.WriteLine("3. 1897");
+        Console.WriteLine("4. 1998");
+
+        Console.WriteLine("Enter the correct choice");
+
+        int bpt = Convert.ToInt32(Console.ReadLine());
+
+        if (bpt == 2)
+        {
+            Console.WriteLine("Correct");
+        }
+      else
+      {
+                Console.WriteLine("Incorrect");
+        }
+      Console.WriteLine("When did the ww1 start?");
+
+        Console.WriteLine("1. 2022");
+        Console.WriteLine("2. 1920");
+        Console.WriteLine("3. 1897");
+        Console.WriteLine("4. 1914");
+
+        Console.WriteLine("Enter the correct choice");
+
+        int cpt = Convert.ToInt32(Console.ReadLine());
+
+        if (cpt == 4)
+        {
+            Console.WriteLine("Correct");
+        }
+      else
+      {
+                Console.WriteLine("Incorrect");
+        }
+    }
+}
+   
